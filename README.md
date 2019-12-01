@@ -11,7 +11,7 @@
 ### Sound Card
 #### Realtek ALC892 （MotherBoard）
 ### Network Interface Card
-#### Intel® I219V （MotherBoard）+ Bcm94360cd (WIFI + Bluetooth)
+#### Intel® I219V （MotherBoard）+ PCI-E BCM94360CD (WI-FI + Bluetooth)
 
 ## Software Version
 
