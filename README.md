@@ -16,4 +16,4 @@
 ## Software Version
 
 ### OpenCore
-#### OpenCore-0.5.2-RELEASE
+#### OpenCore-0.5.3-RELEASE
