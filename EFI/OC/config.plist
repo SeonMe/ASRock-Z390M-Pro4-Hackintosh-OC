@@ -509,7 +509,7 @@
 			<key>ShowPicker</key>
 			<true/>
 			<key>Timeout</key>
-			<integer>10</integer>
+			<integer>5</integer>
 			<key>UsePicker</key>
 			<true/>
 		</dict>
@@ -641,17 +641,17 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C07819500GU1F</string>
+			<string>C07921500GUA8</string>
 			<key>ROM</key>
-			<data>4gHixRny</data>
+			<data>Z4orrUOG</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMac19,1</string>
+			<string>Macmini8,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C07WP0TCJYVX</string>
+			<string>C07YREZEJYVX</string>
 			<key>SystemUUID</key>
-			<string>2381983D-77A6-402D-A15E-B0446D48F0CE</string>
+			<string>0606EC0E-B4E8-438F-BC4E-9387EAAD4386</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
