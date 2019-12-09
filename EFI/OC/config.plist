@@ -657,17 +657,17 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C07921500GUA8</string>
+			<string></string>
 			<key>ROM</key>
-			<data>Z4orrUOG</data>
+			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>Macmini8,1</string>
+			<string></string>
 			<key>SystemSerialNumber</key>
-			<string>C07YREZEJYVX</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>0606EC0E-B4E8-438F-BC4E-9387EAAD4386</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
