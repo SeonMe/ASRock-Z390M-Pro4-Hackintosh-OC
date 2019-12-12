@@ -462,18 +462,6 @@
 				<key>Path</key>
 				<string>VerifyMsrE2.efi</string>
 			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Name</key>
-				<string>CleanNvram</string>
-				<key>Comment</key>
-				<string>CleanNvram</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>CleanNvram.efi</string>
-			</dict>
 		</array>
 	</dict>
 	<key>NVRAM</key>
