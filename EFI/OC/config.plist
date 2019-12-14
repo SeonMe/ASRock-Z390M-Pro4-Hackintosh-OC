@@ -140,6 +140,11 @@
 				<key>model</key>
 				<string>Intel UHD Graphics 630 (Desktop)</string>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x6)</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQ==</data>
+			</dict>
 		</dict>
 		<key>Block</key>
 		<dict/>
@@ -541,7 +546,7 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string></string>
+			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>

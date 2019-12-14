@@ -18,7 +18,7 @@
 ## Software Version
 
 ### OpenCore
-#### OpenCore-0.5.3-RELEASE
+#### OpenCore-0.5.4-RELEASE (Daily version)
 
 ### Kext Downloads
 #### [Lilu](https://github.com/acidanthera/Lilu/releases)
