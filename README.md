@@ -26,10 +26,10 @@
 #### [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
 #### [AppleALC](https://github.com/acidanthera/AppleALC/releases)
 #### [IntelMausi](https://github.com/acidanthera/IntelMausi/releases)
-#### [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
+#### [USBPort](https://blog.daliansky.net/Intel-FB-Patcher-USB-Custom-Video.html)
+#### [USBPower](https://github.com/SeonMe/ASRock-Hackintosh-OC)
 #### [CPUFriend](https://github.com/acidanthera/CPUFriend/releases)
 #### [CPUFriendDataProvider](https://blog.xjn819.com/)
-#### [USBPower](https://github.com/SeonMe/ASRock-Hackintosh-OC)
 #### [NoTouchID](https://github.com/al3xtjames/NoTouchID/releases)
 
 ### Drivers efi Downloads
