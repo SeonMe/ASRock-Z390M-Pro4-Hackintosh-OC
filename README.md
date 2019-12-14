@@ -30,7 +30,7 @@
 ##### [USBPort](https://blog.daliansky.net/Intel-FB-Patcher-USB-Custom-Video.html)
 ##### [USBPower](https://github.com/SeonMe/ASRock-Hackintosh-OC)
 ##### [CPUFriend](https://github.com/acidanthera/CPUFriend/releases)
-##### [CPUFriendDataProvider](https://blog.xjn819.com/)
+##### [CPUFriendDataProvider](https://blog.xjn819.com/?p=543)
 ##### [NoTouchID](https://github.com/al3xtjames/NoTouchID/releases)
 
 ### Drivers efi Downloads
