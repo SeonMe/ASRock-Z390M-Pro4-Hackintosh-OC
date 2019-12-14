@@ -1,9 +1,9 @@
 # ASRock-Hackintosh-OC
 
-### iMac model
+## iMac model
 ##### iMac19,1
 
-### Device Lists
+## Device Lists
 
 #### MotherBoard
 ##### ASRock Z390M Pro4
@@ -16,7 +16,7 @@
 #### Network Interface Card
 ##### Intel® I219V （MotherBoard）+ PCI-E BCM94360CD (WI-FI + Bluetooth)
 
-### Software Version
+## Software Version
 
 ### OpenCore
 ##### OpenCore-0.5.4-RELEASE (Daily version)
@@ -41,5 +41,5 @@
 ##### [MemoryAllocation](https://github.com/williambj1/OpenCore-Factory/releases/tag/OpenCore-UEFI-Drivers)
 ##### [UsbKbDxe](https://github.com/acidanthera/AppleSupportPkg/releases)
 
-### Where you need to modify
+## Where you need to modify
 ![Where you need to modify](https://github.com/SeonMe/ASRock-Hackintosh-OC/raw/master/Images/config_edit.png)
