@@ -36,15 +36,49 @@
 			<string>AppleBacklightDisplay</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
+				<key>AppleDisplayType</key>
+				<integer>2</integer>
+				<key>AppleSense</key>
+				<integer>1854</integer>
+				<key>DisplayParameterHandlerUsesCharPtr</key>
+				<true/>
+				<key>DisplayProductID</key>
+				<integer>45061</integer>
 				<key>DisplayProductName</key>
 				<string>DELL P2415Q</string>
+				<key>DisplayVendorID</key>
+				<integer>1552</integer>
+				<key>IODisplayCapabilityString</key>
+				<data>
+				KHByb3QoYmFja2xpZ2h0KSB0eXBlKGxlZCkgbW9kZWwo
+				aU1hYykgdmNwKDAyIDEwIDUyIDhEIEM4IEM5IERFIERG
+				IEZDIEZEIEZFKSBtY2NzX3ZlcigyLjIpKQ==
+				</data>
+				<key>IODisplayConnectFlags</key>
+				<data>
+				hEkAAA==
+				</data>
+				<key>IODisplayControllerID</key>
+				<data>
+				AgQR/w==
+				</data>
 				<key>IODisplayEDID</key>
 				<data>
-				AP///////wAGEHycQk1IMAsbAQOANR5g6m+xp1VMniUM
+				AP///////wAGEAWwAAAAABwWAQS1MBt4Im+xp1VMniUM
 				UFSlSwBxT4GAqcCpQNHA4QABAQEBCOgAMPJwWoCwWIoA
-				DyghAAAaAAAA/wA2VFk4QzczRzBITUIKAAAA/ABERUxM
-				IFAyNDE1UQogAAAA/QAdTB6MPAAKICAgICAgAcw=
+				DyghAAAaAAAA/wA2VFk4QzczRzBITUIKAAAA/ABpTWFj
+				CiAgICAgICAgAAAA/QAdTB6MPAAKICAgICAgAQA=
 				</data>
+				<key>IODisplayFirmwareLevel</key>
+				<data>
+				AAACBA==
+				</data>
+				<key>IODisplayMCCSVersion</key>
+				<data>
+				AAICAA==
+				</data>
+				<key>IODisplayPrefsKey</key>
+				<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/IGPU@2/AppleIntelFramebuffer@1/display0/AppleBacklightDisplay-610-b005</string>
 				<key>scale-resolutions</key>
 				<array>
 					<data>
@@ -57,9 +91,6 @@
 					AAAPAAAACHAA
 					</data>
 					<data>
-					AAAKAAAABaAA
-					</data>
-					<data>
 					AAAeAAAAEOAAAAABACAAAA==
 					</data>
 					<data>
@@ -67,9 +98,6 @@
 					</data>
 					<data>
 					AAAPAAAACHAAAAABACAAAA==
-					</data>
-					<data>
-					AAAKAAAABaAAAAABACAAAA==
 					</data>
 					<data>
 					AAAeAAAAEOAAAAAB
@@ -81,9 +109,6 @@
 					AAAPAAAACHAAAAAB
 					</data>
 					<data>
-					AAAKAAAABaAAAAAB
-					</data>
-					<data>
 					AAAeAAAAEOAAAAAJAKAAAA==
 					</data>
 					<data>
@@ -91,9 +116,6 @@
 					</data>
 					<data>
 					AAAPAAAACHAAAAAJAKAAAA==
-					</data>
-					<data>
-					AAAKAAAABaAAAAAJAKAAAA==
 					</data>
 				</array>
 			</dict>

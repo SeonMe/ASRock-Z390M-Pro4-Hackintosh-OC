@@ -22,6 +22,14 @@
 				<key>Path</key>
 				<string>SSDT-PLUG-XCPM.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-ARTC</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-ARTC.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -335,7 +343,7 @@
 				<key>Comment</key>
 				<string>Display-P2415Q</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -572,7 +580,6 @@
 			<string>FwRuntimeServices.efi</string>
 			<string>VirtualSmc.efi</string>
 			<string>MemoryAllocation.efi</string>
-			<string>UsbKbDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
