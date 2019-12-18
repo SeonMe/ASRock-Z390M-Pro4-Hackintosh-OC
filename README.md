@@ -10,7 +10,8 @@
 #### CPU
 ##### Intel i5 9500
 #### Video card
-##### Intel® UHD Graphics 630 (CPU)
+##### Intel® UHD Graphics 630 (iGPU)
+##### AMD Radeon RX 5500XT 8 GB
 #### Sound Card
 ##### Realtek ALC892 （MotherBoard）
 #### Network Interface Card
@@ -24,7 +25,7 @@
 ### Kext Downloads
 ##### [Lilu](https://github.com/acidanthera/Lilu/releases)
 ##### [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
-##### [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
+##### [WhateverGreen](https://github.com/bugprogrammer/WhateverGreen/releases)
 ##### [AppleALC](https://github.com/acidanthera/AppleALC/releases)
 ##### [IntelMausi](https://github.com/acidanthera/IntelMausi/releases)
 ##### [USBPort](https://blog.daliansky.net/Intel-FB-Patcher-USB-Custom-Video.html)
