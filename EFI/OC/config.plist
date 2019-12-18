@@ -182,11 +182,19 @@
 				<key>AAPL,slot-name</key>
 				<string>Built-in</string>
 				<key>AAPL,ig-platform-id</key>
-				<string>3E9B0007</string>
+				<data>AwCYPg==</data>
 				<key>device_type</key>
 				<string>Display controller</string>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
+				<key>device-id</key>
+				<data>mD4AAA==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
 				<key>model</key>
 				<string>Intel UHD Graphics 630</string>
 			</dict>
@@ -510,7 +518,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>silde=1 darkwake=8 agdpmod=pikera shikigva=16</string>
+				<string>silde=1 darkwake=8 agdpmod=pikera shikigva=80</string>
 				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
