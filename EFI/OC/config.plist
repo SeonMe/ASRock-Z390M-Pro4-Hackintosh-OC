@@ -84,26 +84,17 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>PCIe Slot-1</string>
-				<key>device_type</key>
-				<string>Display controller</string>
-				<key>hda-gfx</key>
-				<string>onboard-2</string>
+				<key>ATY,DeviceName</key>
+				<string>RX 5500XT</string>
+				<key>ATY,FamilyName</key>
+				<string>Radeon</string>
 				<key>model</key>
-				<string>AMD Radeon RX 5500XT</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>PCIe Slot-1</string>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>model</key>
-				<string>AMD Radeon RX 5500XT HDMI Audio</string>
+				<string>Radeon RX 5500XT</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Built-in</string>
+				<string>Built-In</string>
 				<key>device_type</key>
 				<string>USB controller</string>
 				<key>model</key>
@@ -112,7 +103,7 @@
 			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Built-in</string>
+				<string>Built-In</string>
 				<key>device_type</key>
 				<string>SATA controller</string>
 				<key>model</key>
@@ -123,7 +114,7 @@
 				<key>AAPL,slot-name</key>
 				<string>M.2 Slot-1</string>
 				<key>device_type</key>
-				<string>Non-Volatile memory controller</string>
+				<string>NVM Express Controller</string>
 				<key>model</key>
 				<string>WD Black SN750 250G NVMe SSD</string>
 			</dict>
@@ -139,7 +130,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Built-in</string>
+				<string>Built-In</string>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
@@ -147,12 +138,12 @@
 				<key>layout-id</key>
 				<data>BQAAAA==</data>
 				<key>model</key>
-				<string>Realtek ALC892</string>
+				<string>Realtek ALC892 Audio Codec</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x6)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Built-in</string>
+				<string>Built-In</string>
 				<key>built-in</key>
 				<data>AQ==</data>
 				<key>device_type</key>
@@ -163,7 +154,7 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Built-in</string>
+				<string>Built-In</string>
 				<key>AAPL,ig-platform-id</key>
 				<data>AwCYPg==</data>
 				<key>device_type</key>
@@ -438,7 +429,7 @@
 			<key>Resolution</key>
 			<string>3840x2160</string>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>Timeout</key>
 			<integer>5</integer>
 			<key>UsePicker</key>
