@@ -18,8 +18,8 @@
 |----|----|
 | MotherBoard | ASRock Z390M Pro4 |
 | CPU | Intel i5 9500 |
-| RAM | Asgard LOKI 51℃ 2666 8GB |
-| Video Card | Sapphire RX 5500XT 8GB * 4|
+| RAM | Asgard LOKI 51℃ 2666 8GB * 4|
+| Video Card | Sapphire RX 5500XT 8GB|
 | Sound Card | Realtek ALC892 （MotherBoard）|
 | Network Interface Card | PCI-E BCM94360CD (WI-FI + Bluetooth) |
 | Hard Disk | WD Black SN750 NVMe SSD 250G |
