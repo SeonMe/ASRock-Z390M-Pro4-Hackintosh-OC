@@ -85,11 +85,11 @@
 				<key>AAPL,slot-name</key>
 				<string>PCIe Slot-1</string>
 				<key>ATY,DeviceName</key>
-				<string>RX 5500XT</string>
+				<string>Vega 48</string>
 				<key>ATY,FamilyName</key>
-				<string>Radeon</string>
+				<string>Radeon Pro</string>
 				<key>model</key>
-				<string>Radeon RX 5500XT</string>
+				<string>Radeon Pro Vega 48</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
@@ -419,7 +419,7 @@
 			<key>ConsoleBehaviourUi</key>
 			<string>Text</string>
 			<key>ConsoleMode</key>
-			<string>Max</string>
+			<string></string>
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideSelf</key>
@@ -429,7 +429,7 @@
 			<key>Resolution</key>
 			<string>3840x2160</string>
 			<key>ShowPicker</key>
-			<true/>
+			<false/>
 			<key>Timeout</key>
 			<integer>5</integer>
 			<key>UsePicker</key>
@@ -497,8 +497,6 @@
 				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
-				<key>nvda_drv</key>
-				<data>MQ==</data>
 				<key>prev-lang:kbd</key>
 				<data>cnUtUlU6MjUy</data>
 			</dict>
@@ -640,7 +638,7 @@
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
-			<false/>
+			<true/>
 			<key>ProvideConsoleGop</key>
 			<true/>
 			<key>ReconnectOnResChange</key>
