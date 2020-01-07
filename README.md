@@ -50,8 +50,7 @@
 |----|----|
 | ApfsDriverLoader | [ApfsDriverLoader](https://github.com/acidanthera/AppleSupportPkg/releases) |
 | HfsPlus | HfsPlus |
-|FwRuntimeServices | [FwRuntimeServices](https://github.com/acidanthera/AppleSupportPkg/releases) |
-| VirtualSmc | [VirtualSmc](https://github.com/acidanthera/VirtualSMC/releases) |
+| FwRuntimeServices | [FwRuntimeServices](https://github.com/acidanthera/AppleSupportPkg/releases) |
 | MemoryAllocation | [MemoryAllocation](https://github.com/williambj1/OpenCore-Factory/releases/tag/OpenCore-UEFI-Drivers) |
 | UsbKbDxe | [UsbKbDxe](https://github.com/acidanthera/AppleSupportPkg/releases) |
 
@@ -74,6 +73,7 @@
 #### 7/1/2020
 * UPDATE OpenCore to 7/1/2020 Versions
 * UPDATE VirtualSmc to 7/1/2020 Versions
+* Delete VirtualSMC.efi from OC>Drivers
 * Delete VirtualSMC.efi from config.plist
 
 #### 28/12 2019
