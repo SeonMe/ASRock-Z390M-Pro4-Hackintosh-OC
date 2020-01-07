@@ -71,6 +71,11 @@
 
 ### Changelog
 
+#### 7/1/2020
+* UPDATE OpenCore to 7/1/2020 Versions
+* UPDATE VirtualSmc to 7/1/2020 Versions
+* Delete VirtualSMC.efi from config.plist
+
 #### 28/12 2019
 * Rewrite README.md
 * Update config.plist dGPU configuration

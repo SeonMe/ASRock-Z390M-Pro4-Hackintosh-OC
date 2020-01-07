@@ -469,12 +469,12 @@
 			<dict>
 				<key>Arguments</key>
 				<string></string>
-				<key>Name</key>
-				<string>VerifyMsrE2</string>
 				<key>Comment</key>
 				<string>VerifyMsrE2</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Name</key>
+				<string>VerifyMsrE2</string>
 				<key>Path</key>
 				<string>VerifyMsrE2.efi</string>
 			</dict>
@@ -493,12 +493,12 @@
 			<dict>
 				<key>boot-args</key>
 				<string>silde=1 darkwake=8 agdpmod=pikera shikigva=80</string>
-				<key>bootercfg</key>
-				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>cnUtUlU6MjUy</data>
+				<key>bootercfg</key>
+				<string>log=0 debug=0 level=0</string>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -527,7 +527,6 @@
 				<string>bluetoothInternalControllerInfo</string>
 				<string>flagstate</string>
 				<string>fmm-computer-name</string>
-				<string>nvda_drv</string>
 				<string>prev-lang:kbd</string>
 				<string>efi-boot-device</string>
 				<string>efi-boot-device-data</string>
@@ -541,6 +540,8 @@
 				<string>BootOrder</string>
 			</array>
 		</dict>
+		<key>WriteFlash</key>
+		<true/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -554,6 +555,8 @@
 			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
+			<key>SupportsCsm</key>
+			<false/>
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
@@ -579,7 +582,6 @@
 			<string>HfsPlus.efi</string>
 			<string>ApfsDriverLoader.efi</string>
 			<string>FwRuntimeServices.efi</string>
-			<string>VirtualSmc.efi</string>
 			<string>MemoryAllocation.efi</string>
 			<string>UsbKbDxe.efi</string>
 		</array>
