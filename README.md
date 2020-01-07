@@ -1,4 +1,4 @@
-# ASRock-Hackintosh-OC
+# ASRock Z390M Pro4 Hackintosh on OpenCore
 
 ## macOS Versions
 #### macOS Catalina 10.15.2
