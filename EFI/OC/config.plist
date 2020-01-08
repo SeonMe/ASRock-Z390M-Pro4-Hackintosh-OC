@@ -587,7 +587,6 @@
 			<string>ApfsDriverLoader.efi</string>
 			<string>FwRuntimeServices.efi</string>
 			<string>MemoryAllocation.efi</string>
-			<string>UsbKbDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -596,7 +595,7 @@
 			<key>KeyMergeThreshold</key>
 			<integer>2</integer>
 			<key>KeySupport</key>
-			<false/>
+			<true/>
 			<key>KeySupportMode</key>
 			<string>Auto</string>
 			<key>KeySwap</key>
