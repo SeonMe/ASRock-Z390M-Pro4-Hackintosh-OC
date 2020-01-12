@@ -62,7 +62,7 @@
 ![Where you need to modify](https://github.com/SeonMe/ASRock-Hackintosh-OC/raw/master/Images/config_edit.png)
 
 ### BIOS Settings
-- **BIOS Version** 4.20
+- **BIOS Version** 4.30
 
 | Disabled | Enabled |
 |----|----|
