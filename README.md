@@ -9,9 +9,13 @@
 ### What works
 - **dGPU** Hardware Accelaration (Final Cut Pro X, VideoProc, Compressor), DRM Content (Apple TV+/Safari Netflix/Amazon Prime)
 - **iGPU** Hardware Accelaration (Final Cut Pro X), Apple Sidecar
+- **WIFI,Bluetooth** BCM94360CD Required
 - **AirDrop, Handoff** BCM94360CD Required
 - **USB** All USB3.1 Gen1/USB2.0 Port (Type-C may not works)
 - **Audio** Realtek ALC892, (layout id: 5)
+
+### Not works
+- **iMessage,FaceTime,Location-based service** Specific cause cannot be identified
 
 ### Device Lists
 | Device | Model |
