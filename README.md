@@ -29,29 +29,29 @@
 #### Boot firmware
 | Boot  | Versions |
 |----|----|
-| OpenCore | [0.5.4](https://github.com/acidanthera/OpenCorePkg/releases) |
+| OpenCore | [latest](https://github.com/acidanthera/OpenCorePkg) |
 
 #### Kext
 | Kext | Downloads |
 |----|----|
-| Lilu | [1.4.1](https://github.com/acidanthera/Lilu/releases) |
-| VirtualSMC | [1.0.9](https://github.com/acidanthera/VirtualSMC/releases) |
-| WhateverGreen | [1.3.6](https://github.com/bugprogrammer/WhateverGreen/releases) Revision |
-| AppleALC | [1.4.5](https://github.com/acidanthera/AppleALC/releases) |
-| IntelMausi | [1.0.2](https://github.com/acidanthera/IntelMausi/releases) |
-| USBPort | [About USB port customization](https://blog.daliansky.net/Intel-FB-Patcher-USB-Custom-Video.html) |
+| Lilu | [latest](https://github.com/acidanthera/Lilu) |
+| VirtualSMC | [latest](https://github.com/acidanthera/VirtualSMC) |
+| WhateverGreen | [latest](https://github.com/bugprogrammer/WhateverGreen) Revision |
+| AppleALC | [latest](https://github.com/acidanthera/AppleALC) |
+| IntelMausi | [latest](https://github.com/acidanthera/IntelMausi) |
+| USBPort | [Look this](https://blog.daliansky.net/Intel-FB-Patcher-USB-Custom-Video.html) |
 | USBPower | Customized |
-| CPUFriend | [1.2.0](https://github.com/acidanthera/CPUFriend/releases) |
-| CPUFriendDataProvider | [CPUFriendDataProvider](https://blog.xjn819.com/?p=543) |
-| NoTouchID | [1.0.3](https://github.com/al3xtjames/NoTouchID/releases) |
+| CPUFriend | [latest](https://github.com/acidanthera/CPUFriend) |
+| CPUFriendDataProvider | [Look this](https://blog.xjn819.com/?p=543) |
+| NoTouchID | [latest](https://github.com/al3xtjames/NoTouchID) |
 
 #### EFI
 | EFI | Downloads |
 |----|----|
-| ApfsDriverLoader | [ApfsDriverLoader](https://github.com/acidanthera/AppleSupportPkg/releases) |
-| HfsPlus | HfsPlus |
-| FwRuntimeServices | [FwRuntimeServices](https://github.com/acidanthera/AppleSupportPkg/releases) |
-| MemoryAllocation | [MemoryAllocation](https://github.com/williambj1/OpenCore-Factory/releases/tag/OpenCore-UEFI-Drivers) |
+| ApfsDriverLoader | [latest](https://github.com/acidanthera/AppleSupportPkg) |
+| HfsPlus | latest |
+| FwRuntimeServices | [latest](https://github.com/acidanthera/AppleSupportPkg) |
+| MemoryAllocation | [latest](https://github.com/williambj1/OpenCore-Factory/releases/tag/OpenCore-UEFI-Drivers) |
 
 
 ### Where you need to modify
