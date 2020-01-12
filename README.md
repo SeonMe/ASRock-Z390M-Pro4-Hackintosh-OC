@@ -52,7 +52,6 @@
 | HfsPlus | HfsPlus |
 | FwRuntimeServices | [FwRuntimeServices](https://github.com/acidanthera/AppleSupportPkg/releases) |
 | MemoryAllocation | [MemoryAllocation](https://github.com/williambj1/OpenCore-Factory/releases/tag/OpenCore-UEFI-Drivers) |
-| UsbKbDxe | [UsbKbDxe](https://github.com/acidanthera/AppleSupportPkg/releases) |
 
 
 ### Where you need to modify
@@ -69,6 +68,11 @@
 | CSM | XHCI Hand-off |
 
 ### Changelog
+
+#### 12/1/2020
+* UPDATE OpenCore to 12/1/2020 Versions
+* UPDATE All Kext and EFI latest Versions
+* UPDATE config.plist
 
 #### 7/1/2020
 * UPDATE OpenCore to 7/1/2020 Versions

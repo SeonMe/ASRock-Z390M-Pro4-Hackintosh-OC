@@ -87,11 +87,11 @@
 				<key>AAPL,slot-name</key>
 				<string>PCIe Slot-1</string>
 				<key>ATY,DeviceName</key>
-				<string>Vega 48</string>
+				<string>5500 XT</string>
 				<key>ATY,FamilyName</key>
-				<string>Radeon Pro</string>
+				<string>Radeon RX</string>
 				<key>model</key>
-				<string>Radeon Pro Vega 48</string>
+				<string>Radeon RX 5500 XT</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
@@ -391,6 +391,8 @@
 			<false/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
+			<key>AppleXcpmForceBoost</key>
+			<false/>
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
@@ -421,7 +423,7 @@
 			<key>ConsoleBehaviourUi</key>
 			<string>Text</string>
 			<key>ConsoleMode</key>
-			<string></string>
+			<string>Max</string>
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideSelf</key>
@@ -431,9 +433,9 @@
 			<key>Resolution</key>
 			<string>3840x2160</string>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>0</integer>
 			<key>UsePicker</key>
 			<true/>
 		</dict>
@@ -455,6 +457,8 @@
 		<dict>
 			<key>AllowNvramReset</key>
 			<true/>
+			<key>AllowSetDefault</key>
+			<false/>
 			<key>AuthRestart</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
@@ -661,7 +665,7 @@
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>SanitiseClearScreen</key>
-			<true/>
+			<false/>
 			<key>UnblockFsConnect</key>
 			<false/>
 		</dict>
