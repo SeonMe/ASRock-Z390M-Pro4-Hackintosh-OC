@@ -26,36 +26,34 @@
 | Video Card | Sapphire RX 5500XT 8GB|
 | Sound Card | Realtek ALC892 （MotherBoard）|
 | Network Interface Card | PCI-E BCM94360CD (WI-FI + Bluetooth) |
-| Hard Disk | WD Black SN750 NVMe SSD 250G |
+| Hard Disk | Hikvision C2000Pro 1TB NVMe SSD |
 | Case | JONSBO UMX3 |
 
 ### Software Version
 #### Boot firmware
 | Boot  | Versions |
 |----|----|
-| OpenCore | [latest](https://github.com/acidanthera/OpenCorePkg) |
+| OpenCore | [Latest release(0.5.4)](https://github.com/acidanthera/OpenCorePkg) |
 
 #### Kext
 | Kext | Downloads |
 |----|----|
-| Lilu | [latest](https://github.com/acidanthera/Lilu) |
-| VirtualSMC | [latest](https://github.com/acidanthera/VirtualSMC) |
-| WhateverGreen | [latest](https://github.com/bugprogrammer/WhateverGreen) Revision |
-| AppleALC | [latest](https://github.com/acidanthera/AppleALC) |
-| IntelMausi | [latest](https://github.com/acidanthera/IntelMausi) |
-| USBPort | [Look this](https://blog.daliansky.net/Intel-FB-Patcher-USB-Custom-Video.html) |
-| USBPower | Customized |
-| CPUFriend | [latest](https://github.com/acidanthera/CPUFriend) |
-| CPUFriendDataProvider | [Look this](https://blog.xjn819.com/?p=543) |
-| NoTouchID | [latest](https://github.com/al3xtjames/NoTouchID) |
+| Lilu | [Latest release(1.4.1)](https://github.com/acidanthera/Lilu) |
+| VirtualSMC,SMCProcessor,SMCSuperIO(1.1.0)| [Latest release](https://github.com/acidanthera/VirtualSMC) |
+| WhateverGreen | [Latest release(1.3.6)](https://github.com/bugprogrammer/WhateverGreen) Revision |
+| AppleALC | [Latest release(1.4.5)](https://github.com/acidanthera/AppleALC) |
+| IntelMausi | [Latest release(1.0.2)](https://github.com/acidanthera/IntelMausi) |
+| USBInjectAll | [2018-1108](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/?tab=downloads) |
+| CPUFriend | [Latest release(1.2.0)](https://github.com/acidanthera/CPUFriend) |
+| NoTouchID | [Latest release(1.0.3)](https://github.com/al3xtjames/NoTouchID) |
 
 #### EFI
 | EFI | Downloads |
 |----|----|
-| ApfsDriverLoader | [latest](https://github.com/acidanthera/AppleSupportPkg) |
-| HfsPlus | latest |
-| FwRuntimeServices | [latest](https://github.com/acidanthera/AppleSupportPkg) |
-| MemoryAllocation | [latest](https://github.com/williambj1/OpenCore-Factory/releases/tag/OpenCore-UEFI-Drivers) |
+| ApfsDriverLoader | [Latest release](https://github.com/acidanthera/AppleSupportPkg) |
+| HfsPlus | Latest release |
+| FwRuntimeServices | [Latest release](https://github.com/acidanthera/AppleSupportPkg) |
+| MemoryAllocation | [Latest release](https://github.com/williambj1/OpenCore-Factory/releases/tag/OpenCore-UEFI-Drivers) |
 
 
 ### Where you need to modify
@@ -72,6 +70,12 @@
 | CSM | XHCI Hand-off |
 
 ### Changelog
+
+### 15/1/2020
+* UPDATE OpenCore 0.5.4(Latest release)
+* UPDATE All Kext and EFI Latest release
+* UPDATE config.plist
+* Delete USBPort.kext USBPower.kext CPUFriendDataProvider.kext
 
 #### 12/1/2020
 * UPDATE OpenCore to 12/1/2020 Versions
