@@ -58,11 +58,10 @@
 
 
 ### Where you need to modify
-![Where you need to modify](https://github.com/SeonMe/ASRock-Hackintosh-OC/raw/master/Images/config_edit.png)
 - **Use Tools:** Macserial
-
-![DeviceProperties_Edit](https://github.com/SeonMe/ASRock-Hackintosh-OC/raw/master/Images/DeviceProperties_Edit.png)
+![Where you need to modify](https://github.com/SeonMe/ASRock-Hackintosh-OC/raw/master/Images/config_edit.png)
 - **Use tools:** Hackintool > PCI
+![DeviceProperties_Edit](https://github.com/SeonMe/ASRock-Hackintosh-OC/raw/master/Images/DeviceProperties_Edit.png)
 
 ### BIOS Settings
 - **BIOS Version** 4.30
