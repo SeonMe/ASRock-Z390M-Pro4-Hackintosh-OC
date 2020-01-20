@@ -13,6 +13,7 @@
 - **AirDrop, Handoff** BCM94360CD Required
 - **USB** All USB3.1 Gen1/USB2.0 Port (Type-C may not works)
 - **Audio** Realtek ALC892, (layout id: 5)
+- **NVRAM** 300 series motherboards now support native NVRAM
 
 ### Not works
 - **iMessage,FaceTime,Location-based service** Specific cause cannot be identified
@@ -70,6 +71,9 @@
 | CSM | XHCI Hand-off |
 
 ### Changelog
+
+### 20/1/2020
+* Modify SSDT to support native NVRAM
 
 ### 15/1/2020
 * UPDATE OpenCore 0.5.4(Latest release)

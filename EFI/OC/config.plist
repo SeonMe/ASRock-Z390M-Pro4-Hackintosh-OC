@@ -57,7 +57,7 @@
 			<key>DisableSingleUser</key>
 			<false/>
 			<key>DisableVariableWrite</key>
-			<true/>
+			<false/>
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
@@ -464,7 +464,7 @@
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
-		<true/>
+		<false/>
 		<key>LegacyOverwrite</key>
 		<false/>
 		<key>LegacySchema</key>
@@ -494,7 +494,7 @@
 			</array>
 		</dict>
 		<key>WriteFlash</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
