@@ -66,9 +66,11 @@
 | Disabled | Enabled |
 |----|----|
 | Fast Boot | VT-x |
-| CFG Lock | Above 4G |
+| CFG Lock (MSR 0xE2 write protection) | Above 4G |
 | VT-d | Hyper Threading (If you use a CPU with K) |
-| CSM | XHCI Hand-off |
+| CSM | Execute Disable Bit |
+| | EHCI/XHCI Hand-off |
+| | OS type: other types |
 
 ### Changelog
 
