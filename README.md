@@ -45,6 +45,7 @@
 | AppleALC | [Latest release(1.4.5)](https://github.com/acidanthera/AppleALC) |
 | IntelMausi | [Latest release(1.0.2)](https://github.com/acidanthera/IntelMausi) |
 | USBInjectAll | [Version: 2018-1108](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/?tab=downloads) |
+| USBPower | |
 | CPUFriend | [Latest release(1.2.0)](https://github.com/acidanthera/CPUFriend) |
 | NoTouchID | [Latest release(1.0.3)](https://github.com/al3xtjames/NoTouchID) |
 
@@ -80,6 +81,9 @@
 | | OS type: other types |
 
 ### Changelog
+
+### 27/1/2020
+* Add USBPower.kext
 
 ### 20/1/2020
 * Modify SSDT to support native NVRAM
