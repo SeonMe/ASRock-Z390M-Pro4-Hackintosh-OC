@@ -82,13 +82,13 @@
 
 ### Changelog
 
-### 27/1/2020
+#### 27/1/2020
 * Add USBPower.kext
 
-### 20/1/2020
+#### 20/1/2020
 * Modify SSDT to support native NVRAM
 
-### 15/1/2020
+#### 15/1/2020
 * UPDATE OpenCore 0.5.4(Latest release)
 * UPDATE All Kext and EFI Latest release
 * UPDATE config.plist
