@@ -8,11 +8,19 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PM</string>
+				<string>SSDT-DMAC</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PM.aml</string>
+				<string>SSDT-DMAC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-MEM2</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-MEM2.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -21,6 +29,22 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PLUG-XCPM.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-PMCR</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PMCR.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-RTC-AWAC</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RTC-AWAC.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -82,7 +106,45 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>name</key>
+				<string>ATY_GPU</string>
+				<key>@0,name</key>
+				<string>ATY,Adder</string>
+				<key>@1,name</key>
+				<string>ATY,Adder</string>
+				<key>@2,name</key>
+				<string>ATY,Adder</string>
+				<key>@3,name</key>
+				<string>ATY,Adder</string>
+				<key>AAPL,slot-name</key>
+				<string>PCIe Slot-1</string>
+				<key>ATY,DeviceName</key>
+				<string>W5500X</string>
+				<key>ATY,FamilyName</key>
+				<string>Radeon Rro</string>
+				<key>device_type</key>
+				<string>ATY,AdderParent</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Radeon Rro W5500X</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCIe Slot-1</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>layout-id</key>
+				<data>AQAAAA==</data>
+				<key>model</key>
+				<string>AMD High Definition Audio Device</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Built-In</string>
@@ -95,7 +157,7 @@
 				<key>model</key>
 				<string>Realtek ALC892 Audio Codec</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x6)</key>
+			<key>PciRoot(0x0)/Pci(0x1F,0x6)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Built-In</string>
@@ -295,22 +357,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>NoTouchID.kext</string>
-				<key>Comment</key>
-				<string>NoTouchID</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/NoTouchID</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -333,6 +379,8 @@
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
+			<false/>
+			<key>DummyPowerManagement</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
@@ -357,6 +405,8 @@
 		</array>
 		<key>Boot</key>
 		<dict>
+			<key>BuiltinTextRenderer</key>
+			<true/>
 			<key>ConsoleBehaviourOs</key>
 			<string>Graphics</string>
 			<key>ConsoleBehaviourUi</key>
@@ -371,6 +421,8 @@
 			<true/>
 			<key>Resolution</key>
 			<string>3840x2160</string>
+			<key>TakeoffDelay</key>
+			<false/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>Timeout</key>
@@ -399,7 +451,7 @@
 			<key>AllowSetDefault</key>
 			<false/>
 			<key>AuthRestart</key>
-			<false/>
+			<true/>
 			<key>ExposeSensitiveData</key>
 			<integer>3</integer>
 			<key>HaltLevel</key>
@@ -439,7 +491,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>silde=1 darkwake=8 agdpmod=pikera shikigva=80 -v</string>
+				<string>silde=1 darkwake=10 agdpmod=pikera shikigva=80 -v</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -466,7 +518,7 @@
 		<key>LegacySchema</key>
 		<dict/>
 		<key>WriteFlash</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -474,14 +526,14 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
+			<key>AdviseWindows</key>
+			<false/>
 			<key>MLB</key>
 			<string></string>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
 			<true/>
-			<key>SupportsCsm</key>
-			<false/>
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
@@ -549,7 +601,7 @@
 			<key>DeviceProperties</key>
 			<false/>
 			<key>FirmwareVolume</key>
-			<false/>
+			<true/>
 			<key>HashServices</key>
 			<false/>
 			<key>OSInfo</key>
