@@ -34,7 +34,7 @@
 #### Boot firmware
 | Boot  | Versions |
 |----|----|
-| OpenCore | [Latest release(0.5.4)](https://github.com/acidanthera/OpenCorePkg) |
+| OpenCore | [Latest release(0.5.5)](https://github.com/acidanthera/OpenCorePkg) |
 
 #### Kext
 | Kext | Downloads |
@@ -81,6 +81,9 @@
 | | OS type: other types |
 
 ### Changelog
+
+#### 19/2/2020
+* UPDATE OpenCore 0.5.5
 
 #### 27/1/2020
 * Add USBPower.kext
