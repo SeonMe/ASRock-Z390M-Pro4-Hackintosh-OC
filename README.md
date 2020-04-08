@@ -1,7 +1,7 @@
 # ASRock Z390M Pro4 Hackintosh on OpenCore
 
 ## macOS Versions
-#### macOS Catalina 10.15.2
+#### macOS Catalina 10.15.4
 
 ## SMBIOS
 #### iMac19,1
@@ -34,15 +34,15 @@
 #### Boot firmware
 | Boot  | Versions |
 |----|----|
-| OpenCore | [Latest release(0.5.5)](https://github.com/acidanthera/OpenCorePkg) |
+| OpenCore | [Latest release(0.5.7)](https://github.com/acidanthera/OpenCorePkg) |
 
 #### Kext
 | Kext | Downloads |
 |----|----|
-| Lilu | [Latest release(1.4.1)](https://github.com/acidanthera/Lilu) |
-| VirtualSMC,SMCProcessor,SMCSuperIO| [Latest release(1.1.1)](https://github.com/acidanthera/VirtualSMC) |
-| WhateverGreen | [Latest release(1.3.6)](https://github.com/bugprogrammer/WhateverGreen) Revision |
-| AppleALC | [Latest release(1.4.5)](https://github.com/acidanthera/AppleALC) |
+| Lilu | [Latest release(1.4.3)](https://github.com/acidanthera/Lilu) |
+| VirtualSMC,SMCProcessor,SMCSuperIO| [Latest release(1.1.2)](https://github.com/acidanthera/VirtualSMC) |
+| WhateverGreen | [Latest release(1.3.7)](https://github.com/bugprogrammer/WhateverGreen) Revision |
+| AppleALC | [Latest release(1.4.8)](https://github.com/acidanthera/AppleALC) |
 | IntelMausi | [Latest release(1.0.2)](https://github.com/acidanthera/IntelMausi) |
 | USBInjectAll | [Version: 2018-1108](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/?tab=downloads) |
 | USBPower | |
@@ -81,8 +81,14 @@
 
 ### Changelog
 
+#### 9/4/2020
+* Update OpenCore 0.5.7
+* Update macOS Version 10.15.4
+* Add OpenCore boot theme
+* Update all Kext
+
 #### 19/2/2020
-* UPDATE OpenCore 0.5.5
+* Update OpenCore 0.5.5
 
 #### 27/1/2020
 * Add USBPower.kext
@@ -91,19 +97,19 @@
 * Modify SSDT to support native NVRAM
 
 #### 15/1/2020
-* UPDATE OpenCore 0.5.4(Latest release)
-* UPDATE All Kext and EFI Latest release
-* UPDATE config.plist
+* Update OpenCore 0.5.4(Latest release)
+* Update All Kext and EFI Latest release
+* Update config.plist
 * Delete USBPort.kext USBPower.kext CPUFriendDataProvider.kext
 
 #### 12/1/2020
-* UPDATE OpenCore to 12/1/2020 Versions
-* UPDATE All Kext and EFI latest Versions
-* UPDATE config.plist
+* Update OpenCore to 12/1/2020 Versions
+* Update All Kext and EFI latest Versions
+* Update config.plist
 
 #### 7/1/2020
-* UPDATE OpenCore to 7/1/2020 Versions
-* UPDATE VirtualSmc to 7/1/2020 Versions
+* Update OpenCore to 7/1/2020 Versions
+* Update VirtualSmc to 7/1/2020 Versions
 * Delete VirtualSMC.efi from OC>Drivers
 * Delete VirtualSMC.efi from config.plist
 
