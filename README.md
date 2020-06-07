@@ -1,4 +1,6 @@
-# ASRock Z390M Pro4 Hackintosh on OpenCore
+# The C246 chipset has been replaced, and the warehouse is no longer updated.
+
+## ASRock Z390M Pro4 Hackintosh on OpenCore
 
 ## macOS Versions
 #### macOS Catalina 10.15.4
